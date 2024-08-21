@@ -43,9 +43,8 @@ struct ContentView: View {
                                 .frame(width: 10, height: 10)
                         }
                     }
-                    .onDelete(perform: { indexSet in
-                        
-                    })
+                    .onDelete(perform: delete)
+                    .onMove(perform: move)
                 }
                 
                 .toolbar {
@@ -68,6 +67,12 @@ struct ContentView: View {
             }
             .navigationTitle("Agenda")
         }
+    }
+    func move( indices: IndexSet, newOffset: Int) {
+        tasks.move(fromOffsets: indices, toOffset: newOffset)
+    }
+    func delete(indexSet: IndexSet) {
+        tasks.remove(atOffsets: indexSet)
     }
 }
 
