@@ -14,7 +14,6 @@
 		FC34A7C92C70BF4A000C5123 /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC34A7C82C70BF4A000C5123 /* Listing.swift */; };
 		FC34A7CB2C71230D000C5123 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC34A7CA2C71230D000C5123 /* PracticeView.swift */; };
 		FC50FF732C73D2FF00F2331E /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC50FF722C73D2FF00F2331E /* SecondView.swift */; };
-		FC50FF752C7511E700F2331E /* TextSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC50FF742C7511E700F2331E /* TextSizeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,6 @@
 		FC34A7C82C70BF4A000C5123 /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
 		FC34A7CA2C71230D000C5123 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
 		FC50FF722C73D2FF00F2331E /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
-		FC50FF742C7511E700F2331E /* TextSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSizeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +60,6 @@
 				FC34A7762C6BECBB000C5123 /* ToDoListApp.swift */,
 				FC34A7782C6BECBB000C5123 /* ContentView.swift */,
 				FC50FF722C73D2FF00F2331E /* SecondView.swift */,
-				FC50FF742C7511E700F2331E /* TextSizeView.swift */,
 				FC34A7C52C70BEEA000C5123 /* Data */,
 				FC34A77A2C6BECBC000C5123 /* Assets.xcassets */,
 				FC34A77C2C6BECBC000C5123 /* Preview Content */,
@@ -161,7 +158,6 @@
 				FC50FF732C73D2FF00F2331E /* SecondView.swift in Sources */,
 				FC34A7772C6BECBB000C5123 /* ToDoListApp.swift in Sources */,
 				FC34A7C92C70BF4A000C5123 /* Listing.swift in Sources */,
-				FC50FF752C7511E700F2331E /* TextSizeView.swift in Sources */,
 				FC34A7CB2C71230D000C5123 /* PracticeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
